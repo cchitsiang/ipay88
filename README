@@ -1,0 +1,11 @@
+IPay88 PHP class
+================
+This is a simple wrapper class to integrate IPay88 payment gateway (http://www.ipay88.com) in Malaysia.
+
+Usage
+-----
+Refer to request.php and response.php for sample code on how to use.
+
+Feedback
+--------
+Feedback and suggestions are welcomed. Please contact me from http://kahthong.com
