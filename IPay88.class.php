@@ -177,7 +177,7 @@ class IPay88 {
    */
   public function getPaymentMethod($payment_id) {
     foreach (self::$payment_methods as $val) {
-      if ($val[0] === $payment_id) {
+      if ($val[0] === (int) $payment_id) {
         return array(
           'name' => isset($val[1]) ? trim($val[1]) : NULL,
           'currency' => isset($val[2]) ? strtoupper(trim($val[2])) : NULL,
